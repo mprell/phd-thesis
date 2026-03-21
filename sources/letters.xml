@@ -35,12 +35,11 @@
             <publicationStmt>
                 <publisher>
                     <persName>Martin Prell</persName>
-                    <email>martin.prell@gmx.net</email>
                 </publisher>
-                <date type="publication">2025</date>
+                <date type="publication">2026</date>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">
-                        <p>Namensnennung 4.0 International (CC BY 4.0)</p>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                        <p>Namensnennung, Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
                     </licence>
                 </availability>
             </publicationStmt>
@@ -50,8 +49,9 @@
         </fileDesc>
         <encodingDesc>
             <projectDesc>
-                <p>Die Daten der vorliegenden Datei wurden im Zuge der Erarbeitung der Inaugural-Dissertation von Martin Prell an der Universität Marburg erzeugt.</p>
+                <p>Die Daten der vorliegenden Datei wurden im Zuge der Erarbeitung der <ref target="https://doi.org/10.17192/openumr/588">Inaugural-Dissertation von Martin Prell</ref> erzeugt. Im Falle der Briefe an Heinrich XXIV. Reuß-Köstritz basieren sie auf den Transkriptions- und Annotationsarbeiten im Rahmen der Erstellung der <ref target="https://erdmuthe.thulb.uni-jena.de">Digitalen Edition der Briefe Erdmuthe Benignas von Reuß-Ebersdorf</ref> (vgl. hierzu die publicationStmt-Knoten der entsprechenden Briefe).</p>
             </projectDesc>
+            <ab type="encoding">Die XML-Kodierung der Briefe erfolgte mit folgender Ausnahme konform zu den Richtlinien der Text Encoding Initiative (TEI) P5: Für die Annotation der Beziehungsaussagen wurde in Ermangelung eines dafür spezifischen Text-Elements das TEI-Element span mit dem Attribut-Wertpaar type="relation" als spezifizierender Zusatz verwendet. Für die maschinenlesbare Kodierung von Ausgangsknoten, Zielknoten und Beziehungskategorie wurden die Attribute @from, @to und @ana genutzt. Die Verwendung der Attribute from und to innerhalb von span ist für solche interpretativen Informationen von Ausgangs- und Zielknoten durch die TEI-Guidelines eigentlich nicht vorgesehen. Zudem ist das span-Element sehr restriktiv in Bezug auf erlaubte Kindelemente, was derzeit vor allem bei unclear- und quote-Kindelementen zu TEI-Validierungsfehlern führt. Da die TEI zum Zeitpunkt der Annotation jedoch keine adäquatere Kodierung der Annotation von Beziehungsaussagen im Text vorsah, die sowohl gut menschen- als auch maschinenlesbar ist, war dieser Kompromiss erforderlich. Das von der TEI für Beziehungsannotationen vorgeschlagene relation-Element mit den Attributen @active zur Angabe des Ausgangsknoten, @passive zur Angabe des Zielknoten und @name zur Angabe der Beziehungskategorie schied aus, da es nur für den teiHeader vorgesehen ist. Es eignet sich damit lediglich für die Stand-off-Annotation und nicht für die unmittelbare Kodierung einer Beziehungsaussage im Text in Form paariger öffnender und schließender Tags. Leere span- oder anchor-Elemente, deren jeweiliges Start- und End-Tag aufeinander bezogen werden müssen, wären zwar eine TEI-valide Lösung, reduzieren aber die Prozessierbarkeit der annotierten Textpassagen deutlich.</ab>
         </encodingDesc>
     </teiHeader>
     <TEI>
@@ -66,7 +66,6 @@
                   <persName key="MP">
                      <surname>Prell</surname>
                      <forename>Martin</forename>
-                     <email>martin.prell@gmx.net</email>
                   </persName>
                </respStmt>
             </titleStmt>
@@ -167,7 +166,6 @@
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -256,7 +254,6 @@
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -345,7 +342,6 @@
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -472,7 +468,6 @@
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -526,7 +521,7 @@
                 <opener>
                     <dateline>Köstritz, den 13. März 1714</dateline>
                 </opener>
-                <!--im Druck keine Wiedergabe der Anrede und des Abstandes zwischen Anrede und Brieftext-->
+                <!--In Druckvorlage keine Wiedergabe der Anrede und des Abstandes zwischen Anrede und Brieftext-->
                 <p>1. Der <persName corresp="#herr_sartori_teschen">Herr Sartori in Teschen</persName>, won welchem einige Nachricht verlangt wird, ist kaiserlicher Kontrebands-Kommissar und Salzversilberer in Teschen: <span type="relation" from="#heinrichxxiv_koestritz" to="#august_hermann_francke" ana="3.1" xml:id="e29">Ein aufrichtiger und redlicher Mann, der nicht allein völlige Überzeugung von der Wahrheit hat und selbige billigt, sondern auch in einem ziemlichen Ernst gestanden</span>. Nachdem er aber mit dem <persName corresp="#herr_kostwiller">Kostwiller</persName> in große Streitigkeit geraten wegen eines Gutes, so einer von dem anderen gekauft, sind sie dadurch beide von aller Kraft gar sehr herunter gekommen. Über dieses steht der <persName corresp="#herr_sartori_teschen">Herr Sartori</persName> in einer Bedienung, nach welcher er verbunden ist, Achtung zu geben, dass von den mährischen und schlesischen Bauern kein Salz aus Polen geholt werde. Nachdem aber die armen Leute das Salz viel wohlfeiler in Polen als in den kaiserlichen Niederlagen haben können und folglich unterschiedliche Mal etliche 100 zusammen sich geschlagen und Salz hineingebracht, so hat <persName corresp="#herr_sartori_teschen">Herr Sartori</persName>, wenn er solches erfahren, vermöge auf sich habenden Juraments, die kaiserliche, in Teschen liegende Miliz implorieren müssen, dass sie den Bauern aufgepasst und ihnen das Salz samt den Pferden weggenommen, wobei es denn selten so leer abgegangen, dass nicht einige Personen, indem sich die Bauern gutwillig nicht geben wollen, tod geblieben wären.</p>
                 <p>2. <persName corresp="#herr_kogler">Herr Kogler</persName> hat feine Erkenntnis: Wie er aber sonst in der Ausübung ist, weiß ich eben nicht zu sagen, da ich nicht viel mit ihm umgegangen. In seinen Reden ist er mir immer sehr heftig vorgekommen. Sollte er vom <persName corresp="#herr_sartori_teschen">Herrn Sartori</persName> gehen, so wünschte ich ihm wohl, statt seiner, einen anderen guten Informator, weil ich nicht zweifle, es werde durch nachdrücklichen Zuspruch und guten Umgang der erste Eifer wieder erweckt werden und dasjenige im Gewissen wieder aufgehen, was jetzt etwa nicht als was Unrechtes will angesehen werden.</p>
                 <p>3. Wenn sich <persName corresp="#herr_kogler">Herr Kogler</persName> selber wegen des verlangenden Vorschusses zu vorhabender Edierung des böhmischen Psalters bei der <persName corresp="#baronin_boblowitz">Frau Baronne von Boblowitz</persName> melden wollte, so er mit wenigeren Bedenken als sonst jemand tun könnte, würde es wohl am besten sein. Sie würde auch alsdann mit größerer Freiheit sich erklären, als wenn sonst jemand, für den sie einige Konsideration hätte, den Antrag tun wollte. Immittelst könnte man gleichwohl, wenn man ungefähr wüsste, wie viel die Kosten betragen möchten, nicht nur in Boblowitz, sondern auch an anderen Orten von weitem zufragen und sehen, wie weit die Sache zu bringen wäre. Erwarten also bei Gelegenheit weitere Nachricht.</p>
@@ -562,7 +557,7 @@
                      </choice> in dem Kollegium sitzen, bis er sich mehr habilitiert haben möchte.</span> 
                   <span type="relation" from="#heinrichxxiv_koestritz" to="#august_hermann_francke" ana="1.1.1PII" xml:id="e37">Der Herr Professor wolle es doch auch überlegen und dessen Meinung wissen lassen.</span>
                </p>
-                <!--im Druck keine Wiedergabe der Grußformel, der Unterschrift und des Zeilenabstandes-->
+                <!--In Druckvorlage keine Wiedergabe der Grußformel, der Unterschrift und des Zeilenabstandes-->
             </div>
         </body>
       </text>
@@ -579,7 +574,6 @@
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -632,11 +626,8 @@
             <div type="letter">
                 <opener/>
                 <p/>
-                
-                <!--im Druck keine Wiedergabe der Anrede und des Abstandes zwischen Anrede und Brieftext-->
-                
-                
-                <!--im Druck keine Wiedergabe der Grußformel, der Unterschrift und des Zeilenabstandes-->
+                <!--In Druckvorlage keine Wiedergabe der Anrede und des Abstandes zwischen Anrede und Brieftext-->
+                <!--In Druckvorlage keine Wiedergabe der Grußformel, der Unterschrift und des Zeilenabstandes-->
             </div>
         </body>
       </text>
@@ -663,7 +654,6 @@
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -1039,7 +1029,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -1381,7 +1370,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -1716,7 +1704,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -2080,7 +2067,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -2429,7 +2415,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -2768,7 +2753,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -3098,7 +3082,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -3431,7 +3414,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -3792,7 +3774,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -4123,7 +4104,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -4460,7 +4440,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -4823,7 +4802,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -5179,7 +5157,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -5522,7 +5499,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -5864,7 +5840,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -6216,7 +6191,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -6547,7 +6521,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -6924,7 +6897,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -7258,7 +7230,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -7596,7 +7567,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -7958,7 +7928,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -8296,7 +8265,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -8622,7 +8590,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -8972,7 +8939,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -9333,7 +9299,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -9675,7 +9640,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -10008,7 +9972,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -10339,7 +10302,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -10675,7 +10637,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -11017,7 +10978,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -11419,7 +11379,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -11772,7 +11731,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -12149,7 +12107,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -12489,7 +12446,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -12828,7 +12784,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -13198,7 +13153,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -13540,7 +13494,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -13904,7 +13857,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -14248,7 +14200,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -14585,7 +14536,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -14929,7 +14879,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -15311,7 +15260,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -15653,7 +15601,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -16019,7 +15966,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -16376,7 +16322,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -16715,7 +16660,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -17056,7 +17000,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -17389,7 +17332,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -17718,7 +17660,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -18069,7 +18010,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -18424,7 +18364,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -18824,7 +18763,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -19188,7 +19126,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -19523,7 +19460,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -19862,7 +19798,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -20226,7 +20161,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -20580,7 +20514,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -20907,7 +20840,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -21255,7 +21187,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -21579,7 +21510,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -21908,7 +21838,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -22277,7 +22206,6 @@ Zeilenumbrüche markiert: ja;
                     <persName ref="http://d-nb.info/gnd/130511005" key="JSF">
                         <surname>Schmidt-Funke</surname>
                         <forename>Julia A.</forename>
-                        <email>julia-annette.schmidt-funke@uni-jena.de</email>
                     </persName>
                     <affiliation>
                         <orgName ref="http://d-nb.info/gnd/36164-1">Friedrich-Schiller-Universität Jena, Historisches Institut, Lehrstuhl für Geschlechtergeschichte</orgName>
@@ -22584,7 +22512,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -22673,7 +22600,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -22747,7 +22673,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -22823,7 +22748,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -22909,7 +22833,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -23012,7 +22935,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -23104,7 +23026,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -23197,7 +23118,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -23296,7 +23216,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -23400,7 +23319,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -23501,7 +23419,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -23589,7 +23506,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -23683,7 +23599,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -23772,7 +23687,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -23857,7 +23771,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -23953,7 +23866,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -24044,7 +23956,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -24137,7 +24048,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -24225,7 +24135,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -24309,7 +24218,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -24394,7 +24302,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -24501,7 +24408,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -24585,7 +24491,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -24665,7 +24570,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -24757,7 +24661,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -24855,7 +24758,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -24952,7 +24854,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -25036,7 +24937,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -25125,7 +25025,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -25234,7 +25133,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -25307,7 +25205,6 @@ Zeilenumbrüche markiert: ja;
         <fileDesc>
             <titleStmt>
                 <title>Brief von Erdmuthe Benigna Reuß an Nikolaus Ludwig von Zinzendorf (oO, oD)</title> 
-               <!-- scheint in unmittelbarer zeitlicher Nähe des Briefes R.20.B.24.b.a.132 geschrieben worden zu sein-->
                 <respStmt>
                     <resp>
                         <note type="remarkResponsibility">Transkription, Auszeichnung nach TEI P5 und Annotation durch</note>
@@ -25315,7 +25212,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -25389,7 +25285,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -25463,7 +25358,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -25544,7 +25438,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -25635,7 +25528,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -25684,7 +25576,7 @@ Zeilenumbrüche markiert: ja;
       </teiHeader>
       <text>
         <body>
-            <div type="letter"><!--  möglicherweise ein in Brief Stab/F 3a,1:11 eingelegtes Bruchstück eines anderen Briefes des H24 an Francke -->
+            <div type="letter">
                 <p>
                   <choice>
                      <orig>Glauchische Diarium Secretum</orig>
@@ -25717,7 +25609,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -25828,7 +25719,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -25926,7 +25816,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -26007,7 +25896,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -26102,7 +25990,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -26188,7 +26075,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -26279,7 +26165,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -26378,7 +26263,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -26472,7 +26356,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -26566,7 +26449,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -26656,7 +26538,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -26778,7 +26659,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -26853,7 +26733,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -26935,7 +26814,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -27021,7 +26899,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -27107,7 +26984,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -27194,7 +27070,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -27276,7 +27151,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -27361,7 +27235,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -27446,7 +27319,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
@@ -27533,7 +27405,6 @@ Zeilenumbrüche markiert: ja;
                     <persName key="MP">
                         <surname>Prell</surname>
                         <forename>Martin</forename>
-                        <email>martin.prell@gmx.net</email>
                     </persName>
                 </respStmt>
             </titleStmt>
