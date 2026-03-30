@@ -1,6 +1,6 @@
 # Research Data
 
-This dataset contains the research data and scripts produced as part of the PhD thesis of Martin Prell with the title "Sozioreligiöse Nähe ermitteln: Eine historische Netzwerkanalyse zur Verortung der pietistischen Gräfin Erdmuthe Benigna von Reuß-Ebersdorf (1670 – 1732)" (https://doi.org/10.17192/openumr/588).<br/><br/>
+This dataset contains the research data and scripts produced as part of the PhD thesis of Martin Prell with the title "Sozioreligiöse Nähe ermitteln: Eine historische Netzwerkanalyse zur Verortung der pietistischen Gräfin Erdmuthe Benigna von Reuß-Ebersdorf (1670–1732)" (https://doi.org/10.17192/openumr/588).<br/><br/>
 It includes:
 - an XML file containing the transcribed and annotated letters that constitute a central corpus of the thesis (sources/letters.xml).
 - XSLT scripts for data validation and for generating a GraphML file from the letter annotations, enabling analysis with the network analysis tool NodeXL (scripts/..).
